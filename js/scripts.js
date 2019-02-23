@@ -7,6 +7,7 @@ var add = function(color, environment, style, music, food, work, sport) {
 //User Interface
 $(document).ready(function(){
   $("#quiz").submit(function(event){
+    var nameInput = $("input#name").val();
     var color = parseInt($("input:radio[name=color]:checked").val());
     var environment = parseInt($("input:radio[name=environment]:checked").val());
     var style = parseInt($("input:radio[name=style]:checked").val());
@@ -32,14 +33,15 @@ $(document).ready(function(){
     } else if (result <= 18) {
       villain = "the RowdyRuff Boys!";
       villainImage = "img/rowdy.jpg";
-      traits = "You love to create havoc in Townsville, but you must be careful!  An obsession with destruction often times causes your downfall against the PowerPuff Girls.";
+      traits = "You love to wreak havoc in Townsville, but you must be careful!  An obsession with destruction often times causes your downfall against the PowerPuff Girls.";
     } else if (result <= 23) {
       villain = "the GangGreen Gang!";
       villainImage = "img/ganggreen.jpg";
       traits = "You cause trouble for the fun of it. You enjoy vandalizing Townsville and harassing its citizens. The streets belong to you - why doesn't anyone else understand that?"
     }
 
-    $("#answer").show();
+    $("#answer").fadeIn();
+    $(".name").text(nameInput);
     $("#villain").text(villain);
     $("#villain-image").attr("src",villainImage);
     $("#villain-image").show();

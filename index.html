@@ -6,7 +6,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Villain Quiz</title>
+    <title>PowerPuff Girls Villain Quiz</title>
   </head>
   <body background="img/heart.jpg">
     <div class="container">
@@ -16,6 +16,11 @@
       <br>
       <br>
       <form id="quiz">
+        <div class="form-group">
+         <label for="name">Please enter your name:</label>
+         <input id="name" class="form-control" type="text">
+       </div>
+
         <h2>Choose a color:</h2>
           <div class="row">
             <div class="col-md-4">
@@ -302,7 +307,7 @@
       <br>
       <br>
       <div id="answer">
-        <p>You are <span id="villain"></span></p>
+        <p><span class="name"></span>, you are <span id="villain"></span></p>
         <img id="villain-image" src=""/>
         <p><span id="traits"></span></p>
 

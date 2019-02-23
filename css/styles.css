@@ -3,39 +3,14 @@
   text-align: center;
 }
 
-
-body {
-  font-family: futura;
-}
-
-
-h1 {
-  font-size: 50px;
-  text-align: center;
-  color: #69C3E3;
-}
-
-p {
-  font-size: 20px;
-  color: #32B243;
-  text-align: center;
-}
-
-h2 {
-  color: #E8567E;
-}
-
-label {
-  font: normal 18px futura;
+#villain-image {
+  height: auto;
+  width: 50%;
 }
 
 .container {
   background-color: white;
   padding: 50px;
-}
-img {
-  height: 300px;
-  width: 100%;
 }
 
 .radio {
@@ -46,7 +21,33 @@ img {
   text-align: center;
 }
 
-#villain-image {
-  height: auto;
+body {
+  font-family: futura;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #69C3E3;
+}
+
+h2 {
+  color: #E8567E;
+}
+
+img {
+  height: 300px;
+  width: 100%;
+}
+
+label {
+  font: normal 18px futura;
+}
+
+p {
+  font-size: 20px;
+  color: #32B243;
   width: 50%;
+  margin: auto;
+  text-align: center;
 }
