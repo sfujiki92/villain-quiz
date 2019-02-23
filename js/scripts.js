@@ -18,19 +18,19 @@ $(document).ready(function(){
 
 
     if (result <= 4) {
-      villain = "Fuzzy Lumpkins!";
-      traits = "You're often...";
-    } else if (result <= 10) {
       villain = "Him!";
-      traits = "You love theatrics...";
-    } else if (result <= 15) {
-      villain = "Mojo Jojo";
+      traits = "You're love...";
+    } else if (result <= 9) {
+      villain = "Mojo Jojo!";
+      traits = "You're often..";
+    } else if (result <= 14) {
+      villain = "Fuzzy Lumpkins";
       traits = "You are...";
-    } else if (result <= 20) {
-      villain = "the Gang Green Gang!";
-      traits = "You are...";
-    } else if (result <= 21) {
+    } else if (result <= 19) {
       villain = "the RowdyRuff Boys!";
+      traits = "You are...";
+    } else if (result <= 23) {
+      villain = "the GangGreen Gang!";
       traits = "You are..."
     }
     $("#villain").text(villain);

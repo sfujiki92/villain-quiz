@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Villain Quiz</title>
@@ -15,35 +15,38 @@
         <p>Take this quiz to find out!</p>
       </div>
       <form id="quiz">
-        <h2>What's your favorite color?</h2>
+        <h2>Choose a color:</h2>
           <div class="row">
             <div class="col-md-4">
             <div class="radio">
-              <label>
-                <input type="radio" name="color" value="2" checked>
-                Red
-              </label>
+              <img src="img/red.jpg" alt="color red">
               <br>
-            </div>
-            </div>
-
-            <div class="col-md-4">
-            <div class="radio">
-              <label>
-                <input type="radio" name="color" value="3" checked>
-                Black
-              </label>
-              <br>
-            </div>
-            </div>
-
-            <div class="col-md-4">
-            <div class="radio">
               <label>
                 <input type="radio" name="color" value="0" checked>
+                Red
+              </label>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="radio">
+              <img src="img/Black.jpg" alt="color black">
+              <br>
+              <label>
+                <input type="radio" name="color" value="2" checked>
+                Black
+              </label>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="radio">
+              <img src="img/green.jpg" alt="color green">
+              <br>
+              <label>
+                <input type="radio" name="color" value="3" checked>
                 Green
               </label>
-              <br>
             </div>
             </div>
           </div>
@@ -52,41 +55,45 @@
           <div class="row">
             <div class="col-md-3">
             <div class="radio">
-              <label>
-                <input type="radio" name="environment" value="1" checked>
-                Desert
-              </label>
+              <img src="img/desert.jpg" alt="photo of a desert">
               <br>
-            </div>
-            </div>
-
-            <div class="col-md-3">
-            <div class="radio">
-              <label>
-                <input type="radio" name="environment" value="2" checked>
-                Jungle
-              </label>
-              <br>
-            </div>
-            </div>
-
-            <div class="col-md-3">
-            <div class="radio">
-              <label>
-                <input type="radio" name="environment" value="3" checked>
-                City
-              </label>
-              <br>
-            </div>
-            </div>
-
-            <div class="col-md-3">
-            <div class="radio">
               <label>
                 <input type="radio" name="environment" value="0" checked>
+                Desert
+              </label>
+            </div>
+            </div>
+
+            <div class="col-md-3">
+            <div class="radio">
+              <img src="img/jungle.jpg" alt="photo of a jungle">
+              <br>
+              <label>
+                <input type="radio" name="environment" value="1" checked>
+                Jungle
+              </label>
+            </div>
+            </div>
+
+            <div class="col-md-3">
+            <div class="radio">
+              <img src="img/city.jpg" alt="photo of a city">
+              <br>
+              <label>
+                <input type="radio" name="environment" value="2" checked>
+                City
+              </label>
+            </div>
+            </div>
+
+            <div class="col-md-3">
+            <div class="radio">
+              <img src="img/woods.jpg" alt="photo of the woods">
+              <br>
+              <label>
+                <input type="radio" name="environment" value="3" checked>
                 Woods
               </label>
-              <br>
             </div>
             </div>
           </div>
@@ -95,8 +102,10 @@
           <div class="row">
             <div class="col-md-4">
             <div class="radio">
+              <img src="img/streetwear.jpg" alt="streetwear fashion">
+              <br>
               <label>
-                <input type="radio" name="style" value="3" checked>
+                <input type="radio" name="style" value="4" checked>
                 Street Wear
               </label>
             </div>
@@ -104,8 +113,10 @@
 
             <div class="col-md-4">
             <div class="radio">
+              <img src="img/couture.jpg" alt="haute couture fashion">
+              <br>
               <label>
-                <input type="radio" name="style" value="0" checked>
+                <input type="radio" name="style" value="1" checked>
                 Haute Couture
               </label>
             </div>
@@ -113,8 +124,10 @@
 
             <div class="col-md-4">
             <div class="radio">
+              <img src="img/shirt.jpeg" alt="plain fashion">
+              <br>
               <label>
-                <input type="radio" name="style" value="4" checked>
+                <input type="radio" name="style" value="3" checked>
                 White T-shirt & jeans
               </label>
             </div>
@@ -125,6 +138,8 @@
           <div class="row">
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/gorillaz.jpg" alt="Gorillaz band">
+              <br>
               <label>
                 <input type="radio" name="music" value="1" checked>
                 Gorillaz
@@ -134,17 +149,21 @@
 
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/dolly.jpg" alt="Dolly Parton">
+              <br>
               <label>
-                <input type="radio" name="music" value="2" checked>
-                Taylor Swift
+                <input type="radio" name="music" value="3" checked>
+                Dolly Parton
               </label>
             </div>
             </div>
 
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/mozart.jpeg" alt="Mozart">
+              <br>
               <label>
-                <input type="radio" name="music" value="3" checked>
+                <input type="radio" name="music" value="2" checked>
                 Mozart
               </label>
             </div>
@@ -152,9 +171,11 @@
 
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/beastie.jpg" alt="Beastie Boys">
+              <br>
               <label>
-                <input type="radio" name="music" value="0" checked>
-                Smash Mouth
+                <input type="radio" name="music" value="4" checked>
+                Beastie Boys
               </label>
             </div>
             </div>
@@ -164,8 +185,10 @@
           <div class="row">
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/steak.jpeg" alt="steak">
+              <br>
               <label>
-                <input type="radio" name="food" value="4" checked>
+                <input type="radio" name="food" value="0" checked>
                 Steak
               </label>
             </div>
@@ -173,8 +196,10 @@
 
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/burger.jpg" alt="burger">
+              <br>
               <label>
-                <input type="radio" name="food" value="2" checked>
+                <input type="radio" name="food" value="3" checked>
                 Burgers
               </label>
             </div>
@@ -182,8 +207,10 @@
 
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/chicken.jpg" alt="fried chicken">
+              <br>
               <label>
-                <input type="radio" name="food" value="3" checked>
+                <input type="radio" name="food" value="2" checked>
                 Fried Chicken
               </label>
             </div>
@@ -191,6 +218,8 @@
 
             <div class="col-md-3">
             <div class="radio">
+              <img src="img/pizza.jpeg" alt="pizza">
+              <br>
               <label>
                 <input type="radio" name="food" value="1" checked>
                 Pizza
@@ -203,8 +232,10 @@
           <div class="row">
             <div class="col-md-6">
             <div class="radio">
+              <img src="img/alone.jpg" alt="working alone">
+              <br>
               <label>
-                <input type="radio" name="work" value="2" checked>
+                <input type="radio" name="work" value="1" checked>
                 Alone
               </label>
             </div>
@@ -212,6 +243,8 @@
 
             <div class="col-md-6">
             <div class="radio">
+              <img src="img/group.jpg" alt="work in a group">
+              <br>
               <label>
                 <input type="radio" name="work" value="3" checked>
                 In a group
@@ -224,8 +257,10 @@
           <div class="row">
             <div class="col-md-4">
             <div class="radio">
+              <img src="img/basketball.jpg" alt="basketball">
+              <br>
               <label>
-                <input type="radio" name="sport" value="5" checked>
+                <input type="radio" name="sport" value="3" checked>
                 Basketball
               </label>
             </div>
@@ -233,8 +268,10 @@
 
             <div class="col-md-4">
             <div class="radio">
+              <img src="img/football.jpg" alt="football">
+              <br>
               <label>
-                <input type="radio" name="sport" value="3" checked>
+                <input type="radio" name="sport" value="2" checked>
                 Football
               </label>
             </div>
@@ -242,13 +279,18 @@
 
             <div class="col-md-4">
             <div class="radio">
+              <img src="img/tennis.jpg" alt="tennis">
+              <br>
               <label>
-                <input type="radio" name="sport" value="1" checked>
+                <input type="radio" name="sport" value="0" checked>
                 Tennis
               </label>
             </div>
             </div>
           </div>
+
+        <br>
+        <br>
 
         <button type="submit" name="button">Submit Quiz</button>
       </form>

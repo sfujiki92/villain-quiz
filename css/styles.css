@@ -2,6 +2,29 @@
   display: none;
 }
 
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 p {
   font-size: 20px;
+  color: #32B243;
+}
+
+h2 {
+  color: #E8567E;
+}
+
+.container {
+  background-color: white;
+}
+img {
+  height: 300px;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: white;
+  margin: 1px;
 }
