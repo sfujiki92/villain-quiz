@@ -36,7 +36,7 @@ $(document).ready(function(){
       traits = "You love to wreak havoc in Townsville, but you must be careful!  An obsession with destruction often times causes your downfall against the PowerPuff Girls.";
     } else if (result <= 23) {
       villain = "the Gang Green Gang!";
-      villainImage = "img/ganggreen.gif";
+      villainImage = "img/ggg.gif";
       traits = "You cause trouble for the fun of it. You enjoy vandalizing Townsville and harassing its citizens. The streets belong to you - why doesn't anyone else understand that?"
     }
 
