@@ -20,23 +20,23 @@ $(document).ready(function(){
 
     if (result <= 4) {
       villain = "Him!";
-      villainImage = "img/him.jpg";
+      villainImage = "img/him.gif";
       traits = "You have a love for the finer things in life - high fashion, gourmet food, classical music - you name it!  You're a drama queen and love to manipulate others to get your way.";
     } else if (result <= 9) {
       villain = "Mojo Jojo!";
-      villainImage = "img/mojo.jpg";
+      villainImage = "img/mojo.gif";
       traits = "You're a master of trickery and can often fool the PowerPuff Girls.  Though highly intelligent, you let your ego get in the way of accomplishing your plans.";
     } else if (result <= 14) {
       villain = "Fuzzy Lumpkins!";
-      villainImage = "img/fuzzy.jpg";
+      villainImage = "img/fuzzy.gif";
       traits = "You enjoy solitude, away from the hustle and bustle.  You're protective of your belongings and will attack anyone who dares to  cross you.";
     } else if (result <= 18) {
       villain = "the RowdyRuff Boys!";
-      villainImage = "img/rowdy.jpg";
+      villainImage = "img/rowdy.gif";
       traits = "You love to wreak havoc in Townsville, but you must be careful!  An obsession with destruction often times causes your downfall against the PowerPuff Girls.";
     } else if (result <= 23) {
-      villain = "the GangGreen Gang!";
-      villainImage = "img/ganggreen.jpg";
+      villain = "the Gang Green Gang!";
+      villainImage = "img/ganggreen.gif";
       traits = "You cause trouble for the fun of it. You enjoy vandalizing Townsville and harassing its citizens. The streets belong to you - why doesn't anyone else understand that?"
     }
 

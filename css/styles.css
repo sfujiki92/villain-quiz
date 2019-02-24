@@ -5,7 +5,7 @@
 
 #villain-image {
   height: auto;
-  width: 50%;
+  width: 70%;
 }
 
 .container {
@@ -47,7 +47,7 @@ label {
 p {
   font-size: 20px;
   color: #32B243;
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: center;
 }
